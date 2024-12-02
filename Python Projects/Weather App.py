@@ -83,7 +83,7 @@ class WeatherApp(QWidget):
 
     def get_weather(self):
         # Define the API key and construct the request URL
-        api_key = os.getenv("c9af90715cdc20aff19e9526037b499f")
+        api_key = os.getenv("Your api key")
         if not api_key:
             self.display_error("API key not found! Please set the API key.")
             return
